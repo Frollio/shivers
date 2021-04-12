@@ -1,0 +1,215 @@
+
+/* 
+Theme Name: Shivers
+Theme URI: Coming soon
+Description: Shivers is a child theme of Hello Elementor.
+Author: Olli Ronkainen
+Author URI: https://ollirok.fi
+Template: hello-elementor
+Version: 1.0
+Text Domain: hello-child-eucap
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+
+/**
+ * General Elements.
+ */
+
+html {
+    font-size: 16px;
+}
+
+html, body {
+    /* Flex - For pushing the footer to bottom: */
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* Flex - For pushing the footer to bottom: */
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    padding: 0 0 0 20px;
+}
+
+[type=button], [type=submit] {
+    border: none;
+}
+
+.editor-styles-wrapper { /* Classic editor buttons. */
+    background-color: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 1.5rem 0 1rem 0;
+}
+
+p {
+    margin: 1rem 0 1rem 0;
+}
+
+label {
+    vertical-align: inherit;
+}
+
+
+/**
+ * Colors - Backgrounds.
+ */
+
+body {
+    background-color: #e9fbfb; /* 95% */
+}
+
+.e-navbar, .e-footer, .dropdown-menu, .e-header-bar > div > nav > button, 
+[type=button], [type=submit] {
+    background-color: #18929a; /* 35% */
+}
+
+.e-language-bar {
+    background-color: #1ca7b0; /* 40% */
+}
+
+.dropdown-item:hover, .dropdown-item:active, [type=button]:hover, [type=button]:focus, [type=submit]:hover, 
+[type=submit]:focus {
+    background-color: #157d84; /* 30% */
+}
+
+.e-main-content-wide-card, .e-main-content-narrow-card, .e-post-intro, 
+.e-sidebar > aside {
+    background-color: #ecf8f8; /* 95% */
+}
+
+
+/**
+ * Colors - Fonts.
+ */
+
+#menu-main-menu > li > a, .dropdown-menu > li > a, 
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus,
+.e-footer-widget-area, .e-footer-widget-title, .e-copyright-block, 
+[type=button], [type=button]:hover, [type=button]:focus, 
+[type=submit], [type=submit]:hover, [type=submit]:focus {
+    color: #ffffff; /* 100% */
+}
+
+#menu-main-menu > li > a:hover, #menu-main-menu > li > a:focus {
+    color: #d7f4f1; /* 95% */
+}
+
+h1, h2, h3, h4, h5, h6, a, 
+a:hover, a:focus {
+    color: #0e5358; /* 30% */
+}
+
+.e-footer a {
+    color: #bcf3f6; /* 85% */
+}
+
+
+/**
+ * Content Area.
+ */
+
+.e-content { /* Content area between header and footer. */
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* Hide vertical overflow so there won't be a
+    horizontal scrollbar: */
+    overflow-x: hidden;
+    /* Flex: For pushing the footer down */
+    flex: 1 0 auto; /* (flex: grow, shrink, basis) */
+}
+
+.e-row { /* A single row. There can be several rows. */
+    width: 100%;
+}
+
+
+/**
+ * Default Post content area. With sidebar. Main content is in a narrow card.
+ */
+
+.e-column-content-sidebar-card { /* Column wrapping narrow main content area card and sidebar */
+    display: grid;
+    grid-gap: 10px;
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+}
+
+.e-main-content-narrow-card { /* Narrow main content area card. */
+    width: 100%;
+    /*float: left;*/
+    /*background-color: #d9eff2;*/
+    /*background-color: #eaf3fb;*/
+    margin: 0;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/**
+ * Primary Sidebar
+ */
+
+.e-sidebar { /* Sidebar. */
+    /*display: grid;
+    grid-gap: 10px;
+    grid-template-rows: auto auto auto;*/
+    width: 100%;
+    /*float: left;*/
+    margin: 0;
+    /*padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);*/
+}
+
+.e-sidebar > aside { /* Sidebar Widget */
+    margin: 0 0 10px 0;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.e-sidebar-widget-title {
+    margin-top: 0;
+}
+
+.e-sidebar > aside > ul > li { /* News list item. */
+    margin-top: 10px;
+}
+
+
+/**
+ * Miscellaneous Content
+ */
+
+.page-header { /* Page header container */
+    margin: 0 0 20px 0;
+}
+
+
+/**
+ * Post pagination
+ */
+
+.e-post-pagination { /* Post pagination wrapper. */
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0 0;
+}
+
+.e-post-pagination > div { /* Post pagination link. */
+    width: auto;
+    font-size: 22px;
+    font-weight: 500;
+}

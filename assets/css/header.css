@@ -1,0 +1,128 @@
+
+/**
+ * Header Bar
+ */
+
+ .e-header-bar {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+
+/**
+* Navigation Bar
+*/
+
+.e-navbar {
+  /*display: grid;
+  grid-column-gap: 40px;
+  grid-template-columns: auto auto;
+  align-content: start;*/
+  /*grid-template-areas: 'navmenu logo';*/
+  padding: 10px;
+}
+
+
+/**
+* Logo
+*/
+
+.e-logo { /* Logo container. */
+  margin: 0 30px 0 0;
+  /*grid-area: 'logo';*/
+}
+
+.e-logo > a > img { /* Logo image. */
+  height: 40px;
+  width: auto;
+}
+
+
+/**
+* Collabsible Menu
+*/
+
+.e-navbar > nav { /* Main menu */
+  margin: 0 0 0 0;
+  padding: 0;
+  /*grid-area: 'navmenu';*/
+}
+
+.e-header-bar > div > nav > button { /* Main menu button. */
+  width: 60px;
+  height: 40px;
+  margin: 0 0 0 20px;
+  border: 3px solid #d9f1f2;
+}
+
+.navbar-toggler > span { /* Main menu button image. */
+  height: 100%;
+}
+
+.e-nav-ul { /* Main menu list. */
+  padding: 20px 20px 20px 30%;
+}
+
+.e-nav-menu li { /* Main menu list item. */
+  margin: 15px 0 0 0;
+}
+
+#menu-main-menu > li > a { /* Main menu link. */
+  /*padding-left: 10%;*/
+  /*font-size: 20px;*/
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+/**
+* Dropdown menu
+*/
+
+.dropdown-menu { /* Dropdown menu. */
+  border: none;
+  padding: 0 0 0 40px;
+}
+
+.dropdown-menu > li {
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-menu > li > a {
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+/**
+* Language Bar
+*/
+
+.e-language-bar {
+  padding: 10px 20px 20px 20px;
+}
+
+.e-flag-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding: 0;
+  margin-bottom: 0;
+  /*padding-inline-start: 0;*/
+}
+
+.e-flag-ul > li {
+  list-style-type: none;
+  /*width: 48px;*/
+  height: 32px;
+  margin: 10px 10px 0 0;
+}
+
+.e-flag-ul > li > a > img { /* Language menu link icon. */
+  height: 100%;
+  width: auto;
+}

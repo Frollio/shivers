@@ -1,0 +1,122 @@
+
+/**
+ * Block Editor - Rows
+ */
+
+.be-row {
+  width: 100%;
+}
+
+
+/**
+ * Block Editor - General Content
+ */
+
+.wp-block-image {
+  margin: 1rem 0 1rem 0;
+}
+
+
+/**
+ * Block Editor - Front Page, large columns
+ */
+
+.be-column-wide {
+  max-width: 800px;
+  margin: 0 auto 0 auto;
+  padding: 40px;
+}
+
+.be-column-narrow {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/**
+ * Block Editor - Front Page, inner columns
+ */
+
+.be-column-logo {
+  max-width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.be-column-name {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.be-column-associate, .be-column-disability {
+  width: 50%;
+}
+
+.be-column-associate {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.be-column-disability {
+  display: flex;
+  justify-content: center;
+}
+
+
+/**
+ * Block Editor - Front Page, content
+ */
+
+.be-european-council, .be-autistic-people {
+  font-size: 40px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.be-welcome {
+  max-width: 800px;
+  margin: 0 auto 0 auto;
+  font-size: 30px;
+  text-align: center;
+}
+
+.be-paragraph-front {
+  max-width: 800px;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.be-img-disability {
+  max-width: 100px;
+}
+
+/*.be-logo {
+  max-width: 200px;
+}*/
+
+
+/**
+ * Block Editor - Executive Board, columns
+ */
+
+.be-column-flex-board {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.be-column-person {
+  max-width: 100%;
+  /*background-color: #d5e6f6;*/
+}
+
+.be-column-portrait {
+  max-width: 200px;
+}

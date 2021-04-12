@@ -1,0 +1,39 @@
+
+/**
+ * Archive
+ */
+
+ .e-archive-content { /* Archive content area. */
+  /*width: 100%;*/
+  max-width: 768px;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+}
+
+.e-archive-description { /* Archive description. */
+  font-size: 20px;
+}
+
+.e-archive-post-list { /* Archive post list. */
+  display: grid;
+  grid-gap: 20px;
+}
+
+.e-post-intro {
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.e-post-intro > h2 { /* Post intro heading. */
+  margin: 0 0 20px 0;
+}
+
+.e-post-intro > a > img { /* Post intro thumbnail. */
+  margin: 0 0 20px 0;
+}
+
+.e-pagination { /* Pagination navigation block */
+  padding: 20px;
+  text-align: center;
+  font-size: 22px;
+}

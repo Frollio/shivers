@@ -1,0 +1,230 @@
+
+/**
+ * Media Queries
+ */
+
+ @media (max-width: 575px) {
+
+  .site-header, body:not([class*="elementor-page-"]) .e-site-main {
+      max-width: none;
+      width: 100%;
+      padding-right: 10px;
+      padding-left: 10px;
+  }
+  
+}
+
+@media (min-width: 576px) {
+
+  .site-header, body:not([class*="elementor-page-"]) {
+      max-width: none;
+      width: 100%;
+  } 
+
+}
+
+@media (min-width: 768px) {
+
+  .site-header, body:not([class*="elementor-page-"]) {
+      max-width: none;
+      width: 100%;
+  } 
+  
+  .e-main-content-narrow-card {
+      padding: 40px;
+  }
+
+  .e-archive-content { /* Archive content area. */
+      padding: 30px;
+  }
+  
+  .e-pagination { /* Pagination navigation block */
+      padding: 30px;
+      font-size: 26px;
+  }
+
+  /* Page grid */
+
+  /*.e-row-page, .e-row-single {
+      padding: 20px 0 20px 0;
+  }*/
+  
+  .e-column-content-sidebar-card { /* Column wrapping main content area card and sidebar. */
+    grid-gap: 20px;
+    padding: 20px 20px 20px 20px;
+  }
+
+  /* Block Editor Content */
+  
+  .be-european-council, .be-autistic-people {
+    font-size: 50px;
+  }
+
+  /* Footer Widget Areas */
+
+  .e-wrapper-footer-widget-areas {
+    padding: 40px 40px 20px 40px;
+    grid-gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (min-width: 940px) {
+
+  .page-header > h1 {
+      margin: 0 0 25px 0;
+      font-size: 3.0em;
+  }
+
+  /* Narrow main content area card and sidebar are centered horizontally. */
+
+  .e-main-content-narrow-card, .e-sidebar {
+      margin: 0 auto 0 auto;
+  }
+
+  /* The archive post list has now two columns. */
+
+  .e-archive-content {
+      max-width: 1000px;
+  }
+  
+  .e-archive-post-list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .site-header, body:not([class*="elementor-page-"]) {
+      max-width: none;
+      width: 100%;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+
+  .site-header, body:not([class*="elementor-page-"]) {
+      max-width: none;
+      width: 100%;
+  } 
+  
+  .page-header > h1 {
+      margin: 0 0 30px 0;
+  }
+
+  /* Collapsible menu expands (BS: navbar-expand-xl). */
+
+  /*.e-navbar {*/ /* Navigation bar */
+      /*padding-left: 20px;
+  }*/
+
+  .e-nav-ul { /* Main menu list. */
+    padding: 0;
+  }
+  
+  .navbar-nav > li { /* Main menu list item */
+      margin: 0 30px 0 0;
+  }
+  
+  #menu-main-menu > li > a { /* Main menu link */
+      padding-left: 0;
+  }
+  
+  .dropdown-menu { /* Dropdown menu */
+      border: 1px solid rgba(0,0,0,.15);
+      padding: 0;
+  }
+
+  .dropdown > ul > li { /* Dropdown menu list item */
+      margin: 0;
+      padding: 5px 0 5px 0;
+  }
+
+  .dropdown > ul > li > a { /* Dropdown menu link */
+      padding: 0 20px 0 20px;
+  }
+
+  /* Default Post. Sidebar is placed horizontally with main content card: */
+
+  .e-column-content-sidebar-card {
+      /*display: flex;
+      flex-direction: row;*/
+      display: grid;
+      grid-template-columns: 75% auto;
+      grid-gap: 20px;
+      max-width: 1320px;
+      height: 100%;
+      margin: 0 auto 0 auto;
+      padding: 20px 20px 20px 20px;
+  }
+  
+  .e-main-content-narrow-card {
+      /*width: 68%;*/
+      margin: 0 0 0 0;
+      padding: 60px;
+      /*float: left;*/
+  }
+  
+  /*.e-sidebar {*/
+      /*width: 28%;*/
+      /*float: left;
+  }*/
+  
+
+  /* Default Page. Sidebar is placed horizontally with main content card: */
+
+  .e-column-content-sidebar {
+    /*display: flex;
+    flex-direction: row;*/
+    display: grid;
+    grid-template-columns: 75% auto;
+    grid-gap: 20px;
+    max-width: 1620px;
+    height: 100%;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+    }
+
+    .e-main-content-narrow {
+    padding: 60px;
+    }
+
+
+  /* The archive post list has now three columns. */
+
+  .e-archive-content { /* Archive content area. */
+    max-width: 1600px;
+  }
+  
+  .e-archive-post-list { /* Archive post list */
+    grid-template-columns: repeat(3, minmax(0, 1fr));;
+    grid-gap: 20px;
+  }
+
+  /* Block Editor Content */
+  
+  .be-column-wide {
+    max-width: 1000px;
+    padding: 60px;
+  }
+
+  .be-column-logo {
+    max-width: 150px;
+  }
+
+  .be-european-council, .be-autistic-people {
+    font-size: 70px;
+  }
+
+  /* Footer Widget Areas */
+
+  .e-wrapper-footer-widget-areas {
+    /*padding: 50px;
+    grid-gap: 50px;*/
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+}

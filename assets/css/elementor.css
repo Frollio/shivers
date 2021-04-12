@@ -1,0 +1,28 @@
+
+/**
+ * Elementor Content
+ */
+
+ .el-content-front { /* Content area of front page. */
+  min-height: 100%;
+}
+
+#col-logo-european { /* Column wrapping logo and European columns. */
+  max-width: 1000px;
+  margin: 0 auto 0 auto;
+  padding: 40px;
+}
+
+#col-logo { /* Column including logo image. */
+  width: 30%;
+}
+
+.logo-front { /* Logo image in front page. */
+  height: 300px;
+}
+
+.el-section { /* Single content card. */
+  margin: 0;
+  /*background-color: #eaf3fb;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);*/
+}

@@ -1,0 +1,48 @@
+
+/**
+ * Full Width Page content area.
+ */
+
+ .e-europe { /* Background image to front page. */
+  background-image: url("../img/europe-shivers.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto 100%;
+}
+
+.e-column { /* Full width column including only main content area. */
+  width: 100%;
+}
+
+.e-main-content-wide { /* Full width main content area. */
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+/**
+* Default Page content area. With sidebar. Main content is in a wide card.
+*/
+
+.e-column-content-sidebar { /* Column wrapping main content area and sidebar. */
+  display: grid;
+  grid-gap: 10px;
+  margin: 0 auto 0 auto;
+  padding: 10px;
+}
+
+.e-main-content-wide-card { /* Wide main content area card. */
+  width: 100%;
+  /*display: grid;
+  grid-gap: 10px;*/
+  margin: 0;
+  padding: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*.e-header-card {
+  margin: 0 0 10px 0;
+  padding: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}*/
