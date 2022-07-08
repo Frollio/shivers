@@ -1,6 +1,8 @@
 
 [![GitHub license](https://img.shields.io/github/license/Frollio/shivers-theme)](https://github.com/Frollio/shivers-theme/blob/main/LICENSE.md)
 
+**Due to changes in WordPress the Shivers theme is abandoned. From now on all of my WordPress theme projects will be block themes.**
+
 # Shivers – A child theme of Hello Elementor
 
 Version: 1.0
