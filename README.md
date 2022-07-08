@@ -1,4 +1,6 @@
 
+[![GitHub license](https://img.shields.io/github/license/Frollio/shivers-theme)](https://github.com/Frollio/shivers-theme/blob/main/LICENSE.md)
+
 # Shivers – A child theme of Hello Elementor
 
 Version: 1.0
